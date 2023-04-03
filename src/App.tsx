@@ -1,10 +1,13 @@
+import { Header } from "./components/Header";
+import { Main } from "./components/Main";
+import { Wrapper } from "./components/Wrapper";
+
 function App() {
   return (
-    <>
-      <div>
-        123
-      </div>
-    </>
+    <Wrapper>
+      <Header />
+      <Main />
+    </Wrapper>
   );
 }
 
